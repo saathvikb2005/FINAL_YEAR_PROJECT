@@ -1,0 +1,76 @@
+SYNOPSIS:
+    TCIA_Data_Retriever.exe [--accept-data-policy] [--auth <string>] [--cli]
+                            [--debug] [--directory-mode <string>] [--force|-f]
+                            [--help|-h] [--http-version <string>]
+                            [--image-url <string>] [--input|-i <string>]
+                            [--max-connections <int>] [--max-retries <int>]
+                            [--meta|-m] [--meta-url <string>]
+                            [--metadata-workers <int>] [--no-decompress]
+                            [--no-md5] [--output|-o <string>] [--passwd <string>]
+                            [--processes|-p <int>] [--prompt|-w]
+                            [--proxy|-x <string>] [--refresh-metadata]
+                            [--save-log] [--server-friendly] [--skip-existing]
+                            [--token-url <string>] [--user|-u <string>]
+                            [--verbose|-V] [--version|-v] [<args>]
+
+OPTIONS:
+    --accept-data-policy         accept the TCIA data usage policy without interactive prompt (default: false)
+
+    --auth <string>              path to JSON API key file for Gen3 authentication (default: "")
+
+    --cli                        Run in CLI mode (default: false)
+
+    --debug                      enable debug-level logging (developer detail) (default: false)
+
+    --directory-mode <string>    Directory structure of saved files: classic or descriptive (default: "descriptive")
+
+    --force|-f                   force re-download even if files exist (default: false)
+
+    --help|-h                    show help information (default: false)
+
+    --http-version <string>      HTTP protocol to use for downloads: 1.1 or 2 (for A/B performance testing) (default: "1.1")
+
+    --image-url <string>         the api url to download image data (default: "https://services.cancerimagingarchive.net/nbia-api/services/v4/getImage")
+
+    --input|-i <string>          path to input manifest file (.tcia, .s5cmd, .csv/.tsv/.xlsx, .json/.jsonld Croissant) (default: "")
+
+    --max-connections <int>      maximum concurrent connections per host (default: 8)
+
+    --max-retries <int>          maximum number of download retries (default: 3)
+
+    --meta|-m                    get Meta info of all files (default: false)
+
+    --meta-url <string>          the api url get meta data (default: "https://services.cancerimagingarchive.net/nbia-api/services/v4/getSeriesMetadata")
+
+    --metadata-workers <int>     number of parallel metadata fetch workers (default: 20)
+
+    --no-decompress              keep downloaded files as ZIP archives (skip extraction) (default: false)
+
+    --no-md5                     disable MD5 validation for downloaded files (default: false)
+
+    --output|-o <string>         Output directory for downloaded files (default: "./")
+
+    --passwd <string>            set password for control data in command line (default: "")
+
+    --processes|-p <int>         start how many download at same time (default: 8)
+
+    --prompt|-w                  input password for control data (default: false)
+
+    --proxy|-x <string>          the proxy to use [http, socks5://user:passwd@host:port] (default: "")
+
+    --refresh-metadata           force refresh all metadata from server (ignore cache) (default: false)
+
+    --save-log                   save debug log info to file (default: false)
+
+    --server-friendly            use extra conservative settings to avoid server issues (default: false)
+
+    --skip-existing              skip download if image file already exists (default: false)
+
+    --token-url <string>         the api url of login token (default: "https://services.cancerimagingarchive.net/nbia-api/oauth/token")
+
+    --user|-u <string>           username for control data (default: "nbia_guest")
+
+    --verbose|-V                 enable verbose (info-level) logging (default: false)
+
+    --version|-v                 show version information (default: false)
+

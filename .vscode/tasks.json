@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Finalize staged project files",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"add",
+				"-u"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

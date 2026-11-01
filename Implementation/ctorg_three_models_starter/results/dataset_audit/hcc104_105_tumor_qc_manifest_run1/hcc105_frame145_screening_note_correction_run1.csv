@@ -1,0 +1,2 @@
+﻿"PatientID","SEG_frame_number","Previous_frame_number","Previous_frame_pixels","Current_frame_pixels","Pixel_area_change","Percentage_change","Correction","Corrected_screening_note","QC_limitation","Formal_QC_status"
+"HCC_105","145","144","3571","3437","-134","-3.75","Frame 145 area decreases relative to frame 144; previous note incorrectly stated that area increases.","Rounded mask in a similar region; area decreases from 3571 to 3437 pixels relative to frame 144.","Visual screening note correction only; formal annotation QC remains pending.","PENDING"

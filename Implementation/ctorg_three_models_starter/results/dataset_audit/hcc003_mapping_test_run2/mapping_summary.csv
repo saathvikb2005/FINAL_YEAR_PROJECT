@@ -1,0 +1,3 @@
+method,liver_source_pixels,tumor_source_pixels,liver_mapped_pixels,tumor_mapped_pixels,liver_source_pixels_inside_ct,tumor_source_pixels_inside_ct,intersection_pixels,tumor_pixels_inside_liver_pct
+patient_coordinate_transform,1916,16606,1916,16606,1916,16606,0,0.0
+both_masks_180_degree_reversed,1916,16606,1916,16606,1916,16606,0,0.0

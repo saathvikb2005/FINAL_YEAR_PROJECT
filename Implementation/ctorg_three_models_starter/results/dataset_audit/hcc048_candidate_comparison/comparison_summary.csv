@@ -1,0 +1,17 @@
+candidate,seg_frame,seg_z_mm,ct_z_mm,plane_distance_mm,mask_pixels,mapped_inside_pixels,inside_percent,overlay_path
+recon3_liver_phase,144,-261.0,-261.0,0.0,482,482,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-261.00.png
+recon3_liver_phase,145,-258.5,-258.5,0.0,812,812,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-258.50.png
+recon3_liver_phase,146,-256.0,-256.0,0.0,888,888,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-256.00.png
+recon3_liver_phase,147,-253.5,-253.5,0.0,1040,1040,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-253.50.png
+recon3_liver_phase,148,-251.0,-251.0,0.0,993,993,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-251.00.png
+recon3_liver_phase,149,-248.5,-248.5,0.0,521,521,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-248.50.png
+recon3_liver_phase,150,-246.0,-246.0,0.0,448,448,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-246.00.png
+recon3_liver_phase,151,-243.5,-243.5,0.0,351,351,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon3_liver_phase\HCC_048_mass_z_-243.50.png
+recon2_pre_liver,144,-261.0,-260.25,0.75,482,482,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-261.00.png
+recon2_pre_liver,145,-258.5,-257.75,0.75,812,812,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-258.50.png
+recon2_pre_liver,146,-256.0,-255.25,0.75,888,888,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-256.00.png
+recon2_pre_liver,147,-253.5,-252.75,0.75,1040,1040,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-253.50.png
+recon2_pre_liver,148,-251.0,-250.25,0.75,993,993,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-251.00.png
+recon2_pre_liver,149,-248.5,-247.75,0.75,521,521,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-248.50.png
+recon2_pre_liver,150,-246.0,-245.25,0.75,448,448,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-246.00.png
+recon2_pre_liver,151,-243.5,-242.75,0.75,351,351,100.0,D:\FINAL_PROJECT\Implementation\ctorg_three_models_starter\results\dataset_audit\hcc048_candidate_comparison\recon2_pre_liver\HCC_048_mass_z_-243.50.png

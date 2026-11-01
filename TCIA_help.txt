@@ -1,0 +1,10 @@
+﻿TCIA_Data_Retriever.exe : 2026/10/14 21:42:37 [WebView2] Environment created successfully
+At line:1 char:1
++ & "D:\Tools\TCIA_Data_Retriever\TCIA_Data_Retriever.exe" --help 2>&1  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026/10/14 21:4...ed successfully:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026/10/14 21:42:38 [parquet] idc_index.parquet up to date (tag 25.0.0)
+2026/10/14 21:42:38 [parquet] prior_versions_index.parquet up to date (tag 25.0.0)

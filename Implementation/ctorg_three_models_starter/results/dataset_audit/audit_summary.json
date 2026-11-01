@@ -1,0 +1,18 @@
+{
+  "ctorg_root_exists": true,
+  "hcc_root_exists": true,
+  "ctorg_volumes": 140,
+  "ctorg_labels": 140,
+  "ctorg_matched_cases": 140,
+  "ctorg_missing_labels": [],
+  "ctorg_missing_volumes": [],
+  "ctorg_duplicate_volume_ids": 0,
+  "ctorg_duplicate_label_ids": 0,
+  "hcc_file_counts_by_extension": {
+    ".xlsx": 1,
+    ".dcm": 13927,
+    ".dcm.tmp": 96,
+    ".csv": 2
+  },
+  "note": "Shape/spacing matches are necessary checks, not proof of full spatial alignment. Review affine matrices and image overlays before training."
+}

@@ -1,0 +1,4 @@
+z_mm,liver_seg_frame,tumor_seg_frame,liver_original_pixels,tumor_original_pixels,liver_mapped_pixels,tumor_mapped_pixels,liver_pixels_inside_ct,tumor_pixels_inside_ct,common_grid_intersection_pixels,tumor_pixels_inside_liver_pct,liver_pixels_covered_by_tumor_pct,seg_ct_frame_of_reference_uid_match,ct_series_uid,ct_sop_uid,liver_source_refs_resolved,tumor_source_refs_resolved
+-260.0,9,104,1093,2627,1093,2627,1093,2627,0,0.0,0.0,False,1.3.6.1.4.1.14519.5.2.1.1706.8374.281650679207816520863173918688,1.3.6.1.4.1.14519.5.2.1.1706.8374.282476372692090589993421459073,2,2
+-207.5,30,125,1916,16606,1916,16606,1916,16606,0,0.0,0.0,False,1.3.6.1.4.1.14519.5.2.1.1706.8374.281650679207816520863173918688,1.3.6.1.4.1.14519.5.2.1.1706.8374.171629400972183496529379205487,2,2
+-157.5,50,145,14818,28107,14818,28107,14818,28107,0,0.0,0.0,False,1.3.6.1.4.1.14519.5.2.1.1706.8374.281650679207816520863173918688,1.3.6.1.4.1.14519.5.2.1.1706.8374.305405243105684845445365285446,2,2
