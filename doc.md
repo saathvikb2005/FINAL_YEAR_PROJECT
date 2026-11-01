@@ -3,12 +3,17 @@
 ## Scope and reading guide
 
 This document describes the files present under `D:\FINAL_PROJECT` as of
-2026-10-18. It records each file's location, type, name/pattern,
-purpose, and contents. Files that are repeated data instances (for example,
-thousands of DICOM slices, generated overlays, and files inside the checked-in
-Python virtual environment) are represented by an exhaustive deterministic
-pattern and a count rather than by repeating the same description thousands of
-times.
+2026-11-01. It records each file's location, type, name/pattern, purpose, and
+contents. Files that are repeated data instances (for example, thousands of
+DICOM slices, generated overlays, and files inside the local Python virtual
+environment) are represented by an exhaustive deterministic pattern and a
+count rather than by repeating the same description thousands of times.
+
+The GitHub repository contains the project documentation, implementation, and
+analysis outputs. The medical-imaging data under `DATASETS/` and the local
+Python environment under `Implementation/ctorg_three_models_starter/.venv/`
+are intentionally excluded from version control by the root `.gitignore`.
+They must be obtained or created locally before running data-dependent work.
 
 The current recursive scan found **62,845 files**:
 
@@ -21,8 +26,9 @@ The current recursive scan found **62,845 files**:
 
 The scan reported these important file types: 52,079 `.dcm`, 4,070 `.py`,
 3,987 `.pyc`, 402 `.pyi`, 295 `.gz`, 264 `.png`, and 104 `.csv` files. The
-virtual environment accounts for most of the Python, bytecode, stub, and
-third-party package files.
+local virtual environment accounts for most of the Python, bytecode, stub, and
+third-party package files. These files are present in the working tree for
+local execution but are not part of the GitHub repository.
 
 ## Project root
 
@@ -249,8 +255,8 @@ run logs, review templates, summaries, or rendered QC images.
 
 ### `.venv/`
 
-`Implementation/ctorg_three_models_starter/.venv/` is a Python virtual
-environment checked into the project. It contains the interpreter environment,
+`Implementation/ctorg_three_models_starter/.venv/` is a local Python virtual
+environment. It contains the interpreter environment,
 installed dependencies, package metadata, test fixtures, compiled extension
 modules, bytecode, and documentation for packages such as NumPy, pandas,
 matplotlib, nibabel, pydicom, Pillow, openpyxl, setuptools, pip, and related
@@ -273,7 +279,7 @@ patterns:
 
 These are dependency-owned files, not project-authored application logic.
 They are included in the inventory because they are physically present under
-the project tree.
+the local project tree, but they are excluded from version control.
 
 ## Inventory completeness
 
@@ -289,5 +295,6 @@ The inventory covers:
 7. Every virtual-environment file by exhaustive package/resource pattern.
 
 `doc.md` is the generated inventory and is included as a root-level Markdown
-file in the current 62,845-file scan. The previous inventory counted 62,830
-files before this file and the subsequent result/document additions existed.
+file. The file counts above describe the local working-tree scan; they do not
+represent the number of files tracked by GitHub because `DATASETS/` and
+`.venv/` are excluded.
